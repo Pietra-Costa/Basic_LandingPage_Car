@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #eaeaeaea;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 30px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    color: #222;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+a{
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+    padding-left: 10px;
+    transform: .5s;
+    font-weight: 500;
+}
+
+a:hover,
+a.active{
+    color: #1743e3;
+}
+
+.social-medias{
+    padding-right: 50px;
+}
+
+.social-medias a i{
+    font-size: 25px;
+    color: white;
+    transform: .5s;
+    padding-left: 10px;
+}
+
+.social-medias a i:hover{
+    color: #051a66;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 8% 0;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-content{
+    max-width: 630px;
+}
+
+.home-content h1{
+    color: #1743e3;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.home-content h3{
+    font-size: 25px;
+    margin: 10px 0 0;
+}
+
+.home-content p{
+    text-align: justify;
+    line-height: 30px;
+    margin: 10px 0 30px;
+}
+
+.home-content a{
+    color: #1743e3;
+    padding: 0;
+    border: solid 2px #1743e3;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, .2);
+    
+}
+
+.home-content a:hover{
+    color: #222;
+    border: solid 2px #222;
+    box-shadow: none;
+}
+
+.home-img{
+    position: relative;
+    width: 450px;
+    height: 450px;
+   
+}
+
+.home-img .rhombus{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #eaeaeaea;
+    border: 25px solid #1743e3;
+    transform: rotate(45deg);
+    right: -30%;
+    outline: none;
+
+}
+
+.home-img .rhombus img{
+    position: absolute;
+    top: 110px;
+    left: -320px;
+    max-width: 800px;
+    transform: rotate(-45deg);
+
+}
+
+.home .rhombus2{
+    position: absolute;
+    top: -25%;
+    right: -25%;
+    background-color: #1743e3;
+    height: 700px;
+    width: 800px;
+    transform: rotate(45deg);
+    z-index: -1;
+    outline: none;
+}
